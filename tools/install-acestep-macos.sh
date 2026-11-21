@@ -54,6 +54,8 @@ plan() {
 源码：ACE-Step/ACE-Step-1.5 @ $SOURCE_COMMIT
 模型：$MODEL_REPO 的 Turbo、VAE、文本编码器及包内 1.7B。
 官方模型包约 10.1 GB，不另下 0.6B；源码和 Python 依赖另计。全新环境建议预留 11–12 GB 流量。
+Python：此版本兼容原生 arm64 Python 3.11/3.12，不兼容 3.14。
+优先复用已有 ACE-Step 环境或本机兼容版本；否则只在安装目录内下载 3.12，不改系统 Python。
 第一次安装解析并记住模型版本；同一目录重跑不会更新版本。
 安装：bash install-acestep-macos.sh --install
 启动：bash install-acestep-macos.sh --start
@@ -235,8 +237,33 @@ if [ ! -f "$SRC/uv.lock" ] || [ ! -f "$SRC/pyproject.toml" ]; then
   mv "$temp" "$SRC"
 fi
 
+# 不用 3.14 强装；同一安装目录重试时，尽量保持上次的解释器。
+find_compatible_python() {
+  local name path
+  for name in "$UV_PROJECT_ENVIRONMENT/bin/python" python3.12 python3.11 python3; do
+    path="$(command -v "$name" 2>/dev/null)" || continue
+    [ -x "$path" ] || continue
+    "$path" -c '
+import os, platform, sys
+if sys.version_info[:2] not in ((3, 11), (3, 12)) or platform.machine() != "arm64":
+    raise SystemExit(1)
+p = getattr(sys, "_base_executable", sys.executable)
+if not os.path.isabs(p) or not os.access(p, os.X_OK):
+    raise SystemExit(1)
+print(p)
+' 2>/dev/null && return 0
+  done
+  return 1
+}
+
 cd "$SRC"
-retry "安装 Python 3.12 和依赖" uv sync --locked --python 3.12
+if reuse_python="$(find_compatible_python)"; then
+  printf '复用兼容的 Python：%s（依赖仍装在隔离环境）\n' "$reuse_python"
+  retry "安装 Python 依赖" uv sync --locked --python "$reuse_python" --no-python-downloads
+else
+  printf '%s\n' '未找到原生 arm64 Python 3.11/3.12。ACE-Step 不兼容 3.14，将通过 uv 在安装目录内准备隔离的 3.12，不更改系统 Python。'
+  retry "准备隔离的 Python 3.12 和依赖" uv sync --locked --python 3.12
+fi
 write_models_helper
 retry "下载并校验模型" "$UV_PROJECT_ENVIRONMENT/bin/python" "$ROOT/models.py" install
 touch "$ROOT/.installed-$SOURCE_COMMIT"
