@@ -1,6 +1,6 @@
 #!/bin/bash
 # ACE-Step 1.5 安装器：仅在本机安装；不修改 VPN、系统代理或 shell 配置。
-# 用法：bash install-acestep-macos.sh [--plan|--install|--start]
+# 用法：bash install-acestep-macos.sh [--plan|--deps-only|--install|--start]
 set -euo pipefail
 umask 077
 
@@ -58,6 +58,7 @@ Python：此版本兼容原生 arm64 Python 3.11/3.12，不兼容 3.14。
 优先复用已有 ACE-Step 环境或本机兼容版本；否则只在安装目录内下载 3.12，不改系统 Python。
 第一次安装解析并记住模型版本；同一目录重跑不会更新版本。
 安装：bash install-acestep-macos.sh --install
+只验证安装依赖（不下模型）：bash install-acestep-macos.sh --deps-only
 启动：bash install-acestep-macos.sh --start
 可选：ACE_INSTALL_DIR 指定同一个安装目录，ACE_RETRIES=1-5（默认 3）。
 --plan 只打印，不联网，不写文件。
@@ -182,7 +183,7 @@ PY
 
 case "$MODE" in
   --plan|--help|-h) plan; exit 0 ;;
-  --install|--start) ;;
+  --deps-only|--install|--start) ;;
   *) plan >&2; exit 2 ;;
 esac
 
@@ -256,13 +257,19 @@ print(p)
   return 1
 }
 
+# 已固定上游源码版本和锁文件。--frozen 只按当前平台安装，
+# 不触发 --locked 的跨平台新鲜度检查和 Windows/CUDA 元数据请求。
 cd "$SRC"
 if reuse_python="$(find_compatible_python)"; then
   printf '复用兼容的 Python：%s（依赖仍装在隔离环境）\n' "$reuse_python"
-  retry "安装 Python 依赖" uv sync --locked --python "$reuse_python" --no-python-downloads
+  retry "安装 Python 依赖" uv sync --frozen --python "$reuse_python" --no-python-downloads
 else
   printf '%s\n' '未找到原生 arm64 Python 3.11/3.12。ACE-Step 不兼容 3.14，将通过 uv 在安装目录内准备隔离的 3.12，不更改系统 Python。'
-  retry "准备隔离的 Python 3.12 和依赖" uv sync --locked --python 3.12
+  retry "准备隔离的 Python 3.12 和依赖" uv sync --frozen --python 3.12
+fi
+if [ "$MODE" = --deps-only ]; then
+  printf '%s\n' 'Python 依赖安装完成。未下载模型；用 --install 继续，保留现有依赖和缓存。'
+  exit 0
 fi
 write_models_helper
 retry "下载并校验模型" "$UV_PROJECT_ENVIRONMENT/bin/python" "$ROOT/models.py" install
