@@ -22,3 +22,14 @@ bash install-acestep-macos.sh --start
 流量：选官方约 **10.1 GB** 主包（Turbo、文本编码器、音频编解码器、包内 1.7B），不额外下载 0.6B。全新环境含源码和依赖预计 **11–12 GB**；建议预留 20 GB 磁盘给模型、解包、环境和缓存。模型清单超过 11 GB 时会停止，不是对总网络流量的硬上限。第一次成功取到的清单会锁定模型提交；后续不会自动跟随上游更新。
 
 验证边界：脚本语法及模拟下载中断、缓存复用流程在云端校验；没有在你的 Mac 上安装，也没有下载权重或验证完整首歌的实际推理。
+
+## Mac 依赖排障
+
+如果旧版出现 `flash-attn`、`win_amd64.whl` 或 CUDA 下载失败，不要下载 Windows 包，也不用换 Python。请更新脚本：新版用固定源码附带的锁文件按本机平台安装，避免重新解析 Windows/Linux 依赖。
+
+```bash
+bash install-acestep-macos.sh --deps-only  # 可选：仅安装依赖，不拉模型
+bash install-acestep-macos.sh --install    # 继续模型下载，复用现有环境和缓存
+```
+
+`--deps-only` 仍可能为确实需要的 Mac 依赖联网。若再次失败，先看报错里的包名和域名，不需要清理缓存。
