@@ -15,6 +15,8 @@ bash install-acestep-macos.sh --install
 bash install-acestep-macos.sh --start
 ```
 
+**Python 版本：** 此脚本固定的 ACE-Step 只支持 Python 3.11/3.12，不能复用 Python 3.14。优先沿用此安装目录已有的兼容解释器，否则从终端 PATH 查找原生 arm64 的 3.12/3.11；找不到时 uv 只在本安装目录中准备 3.12。不会卸载或修改你已有的 Python 3.14，依赖也不装进系统 Python。
+
 默认安装到 `~/ace-step-local`。如果第一次使用了 `ACE_INSTALL_DIR=/绝对路径`，重试和启动都要用同一个值。访问 `http://127.0.0.1:7860` ；按 Ctrl+C 停止。启动不执行依赖同步，Hugging Face/Transformers 使用离线选项；模型缺件则报错，不启动。脚本不会启用公网分享或变更系统网络设置。
 
 流量：选官方约 **10.1 GB** 主包（Turbo、文本编码器、音频编解码器、包内 1.7B），不额外下载 0.6B。全新环境含源码和依赖预计 **11–12 GB**；建议预留 20 GB 磁盘给模型、解包、环境和缓存。模型清单超过 11 GB 时会停止，不是对总网络流量的硬上限。第一次成功取到的清单会锁定模型提交；后续不会自动跟随上游更新。
