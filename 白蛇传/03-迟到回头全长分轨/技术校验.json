@@ -1,0 +1,84 @@
+{
+  "slug": "white-snake",
+  "duration": 179.14,
+  "tracks": [
+    {
+      "name": "lead-tenor-sax",
+      "notes": 266,
+      "rms_before_master_gain": 0.02824
+    },
+    {
+      "name": "electric-piano",
+      "notes": 376,
+      "rms_before_master_gain": 0.02123
+    },
+    {
+      "name": "electric-bass",
+      "notes": 129,
+      "rms_before_master_gain": 0.01518
+    },
+    {
+      "name": "clean-guitar",
+      "notes": 20,
+      "rms_before_master_gain": 0.00138
+    },
+    {
+      "name": "drums",
+      "notes": 242,
+      "rms_before_master_gain": 0.00887
+    }
+  ],
+  "bar_count": 56,
+  "sections": [
+    [
+      "intro · 断桥留白",
+      4,
+      0.19
+    ],
+    [
+      "verse · 借伞与递酒",
+      8,
+      0.4
+    ],
+    [
+      "pre · 认错前的一口气",
+      4,
+      0.59
+    ],
+    [
+      "chorus · 是我先松了手",
+      8,
+      0.8
+    ],
+    [
+      "interlude · 把伞留在门口",
+      4,
+      0.32
+    ],
+    [
+      "verse 2 · 迟到的回头",
+      8,
+      0.49
+    ],
+    [
+      "bridge · 雷峰塔下",
+      6,
+      0.24
+    ],
+    [
+      "final chorus · 这次不比你先走",
+      10,
+      0.96
+    ],
+    [
+      "outro · 伞下静下来",
+      4,
+      0.12
+    ]
+  ],
+  "sample_rate": 32000,
+  "frames_per_track": 5732547,
+  "channels": 2,
+  "peak_dBFS": -1.5,
+  "lossless_sum_pcm_exact": true
+}

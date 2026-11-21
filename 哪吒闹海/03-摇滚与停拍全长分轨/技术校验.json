@@ -1,0 +1,99 @@
+{
+  "slug": "nezha",
+  "duration": 171.71,
+  "tracks": [
+    {
+      "name": "lead-synth",
+      "notes": 474,
+      "rms_before_master_gain": 0.03728
+    },
+    {
+      "name": "distorted-guitar",
+      "notes": 1293,
+      "rms_before_master_gain": 0.02087
+    },
+    {
+      "name": "electric-bass",
+      "notes": 327,
+      "rms_before_master_gain": 0.02041
+    },
+    {
+      "name": "overdriven-guitar",
+      "notes": 62,
+      "rms_before_master_gain": 0.00772
+    },
+    {
+      "name": "drums",
+      "notes": 1093,
+      "rms_before_master_gain": 0.0202
+    }
+  ],
+  "bar_count": 96,
+  "sections": [
+    [
+      "前奏 · 潮压城",
+      8,
+      0.44
+    ],
+    [
+      "主歌一 · 城门下",
+      12,
+      0.53
+    ],
+    [
+      "预副歌一 · 划清账",
+      8,
+      0.74
+    ],
+    [
+      "副歌一 · 我自己来答",
+      8,
+      0.93
+    ],
+    [
+      "过门 · 城门有回声",
+      4,
+      0.67
+    ],
+    [
+      "主歌二 · 我闯的祸我认",
+      12,
+      0.57
+    ],
+    [
+      "预副歌二 · 让开",
+      8,
+      0.81
+    ],
+    [
+      "副歌二 · 城里的人别跪",
+      8,
+      0.98
+    ],
+    [
+      "桥段 · 娘",
+      8,
+      0.18
+    ],
+    [
+      "回升 · 海风重新进城",
+      4,
+      0.59
+    ],
+    [
+      "终副歌 · 我自己来答",
+      12,
+      1
+    ],
+    [
+      "尾声 · 回家",
+      4,
+      0.34
+    ]
+  ],
+  "sample_rate": 32000,
+  "frames_per_track": 5494776,
+  "channels": 2,
+  "peak_dBFS": -1.5,
+  "lossless_sum_pcm_exact": true
+}

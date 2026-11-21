@@ -1,0 +1,94 @@
+{
+  "slug": "magpie-bridge",
+  "duration": 173.73,
+  "tracks": [
+    {
+      "name": "lead-A-clarinet",
+      "notes": 274,
+      "rms_before_master_gain": 0.02402
+    },
+    {
+      "name": "nylon-guitar",
+      "notes": 637,
+      "rms_before_master_gain": 0.01282
+    },
+    {
+      "name": "upright-bass",
+      "notes": 157,
+      "rms_before_master_gain": 0.01345
+    },
+    {
+      "name": "accordion",
+      "notes": 36,
+      "rms_before_master_gain": 0.0037
+    },
+    {
+      "name": "lead-B-flute",
+      "notes": 291,
+      "rms_before_master_gain": 0.02713
+    },
+    {
+      "name": "drums",
+      "notes": 258,
+      "rms_before_master_gain": 0.00248
+    }
+  ],
+  "bar_count": 120,
+  "sections": [
+    [
+      "前奏 · 隔岸",
+      8,
+      0.29
+    ],
+    [
+      "主歌一 · 牛郎",
+      16,
+      0.46
+    ],
+    [
+      "主歌二 · 织女",
+      16,
+      0.53
+    ],
+    [
+      "副歌一 · 第一问",
+      12,
+      0.72
+    ],
+    [
+      "间奏 · 鹊起",
+      10,
+      0.55
+    ],
+    [
+      "桥段 · 袖口",
+      12,
+      0.32
+    ],
+    [
+      "再会 · 两岸合流",
+      16,
+      0.64
+    ],
+    [
+      "终副歌 · 一年一问",
+      16,
+      0.89
+    ],
+    [
+      "散场 · 再下桥",
+      6,
+      0.36
+    ],
+    [
+      "尾声 · 最后一只鸟",
+      8,
+      0.2
+    ]
+  ],
+  "sample_rate": 32000,
+  "frames_per_track": 5559314,
+  "channels": 2,
+  "peak_dBFS": -1.5,
+  "lossless_sum_pcm_exact": true
+}

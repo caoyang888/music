@@ -1,0 +1,79 @@
+{
+  "slug": "mulan",
+  "duration": 180.76,
+  "tracks": [
+    {
+      "name": "lead-clarinet",
+      "notes": 289,
+      "rms_before_master_gain": 0.03125
+    },
+    {
+      "name": "steel-guitar",
+      "notes": 238,
+      "rms_before_master_gain": 0.00674
+    },
+    {
+      "name": "upright-bass",
+      "notes": 73,
+      "rms_before_master_gain": 0.0125
+    },
+    {
+      "name": "piano",
+      "notes": 20,
+      "rms_before_master_gain": 0.00143
+    }
+  ],
+  "bar_count": 58,
+  "sections": [
+    [
+      "前奏 · 门里灯亮",
+      4,
+      0.27
+    ],
+    [
+      "主歌一 · 轻轻推门",
+      8,
+      0.46
+    ],
+    [
+      "前副歌 · 碗沿碰响",
+      4,
+      0.57
+    ],
+    [
+      "副歌一 · 叫我一声乳名吧",
+      9,
+      0.68
+    ],
+    [
+      "间奏 · 桌上热气",
+      4,
+      0.37
+    ],
+    [
+      "主歌二 · 比从前慢一点",
+      8,
+      0.5
+    ],
+    [
+      "桥段 · 铜镜和佩刀",
+      8,
+      0.3
+    ],
+    [
+      "终副歌 · 不着急吃完",
+      9,
+      0.8
+    ],
+    [
+      "尾奏 · 马在门外歇",
+      4,
+      0.21
+    ]
+  ],
+  "sample_rate": 32000,
+  "frames_per_track": 5784369,
+  "channels": 2,
+  "peak_dBFS": -1.5,
+  "lossless_sum_pcm_exact": true
+}
