@@ -1,0 +1,657 @@
+{
+  "title": "叫错名字",
+  "version": "V11",
+  "bars": [
+    {
+      "bar": 1,
+      "bpm": 76,
+      "section": "开场",
+      "chord": "Bm",
+      "start": 0.0,
+      "duration": 3.157895
+    },
+    {
+      "bar": 2,
+      "bpm": 76,
+      "section": null,
+      "chord": "G",
+      "start": 3.157895,
+      "duration": 3.157895
+    },
+    {
+      "bar": 3,
+      "bpm": 76,
+      "section": "归乡·收声",
+      "chord": "Bm",
+      "start": 6.315789,
+      "duration": 3.157895
+    },
+    {
+      "bar": 4,
+      "bpm": 76,
+      "section": null,
+      "chord": "G",
+      "start": 9.473684,
+      "duration": 3.157895
+    },
+    {
+      "bar": 5,
+      "bpm": 76,
+      "section": null,
+      "chord": "D",
+      "start": 12.631579,
+      "duration": 3.157895
+    },
+    {
+      "bar": 6,
+      "bpm": 76,
+      "section": null,
+      "chord": "A",
+      "start": 15.789474,
+      "duration": 3.157895
+    },
+    {
+      "bar": 7,
+      "bpm": 76,
+      "section": null,
+      "chord": "G",
+      "start": 18.947368,
+      "duration": 3.157895
+    },
+    {
+      "bar": 8,
+      "bpm": 76,
+      "section": null,
+      "chord": "A",
+      "start": 22.105263,
+      "duration": 3.157895
+    },
+    {
+      "bar": 9,
+      "bpm": 76,
+      "section": null,
+      "chord": "Bm",
+      "start": 25.263158,
+      "duration": 3.157895
+    },
+    {
+      "bar": 10,
+      "bpm": 76,
+      "section": null,
+      "chord": "F#",
+      "start": 28.421053,
+      "duration": 3.157895
+    },
+    {
+      "bar": 11,
+      "bpm": 94,
+      "section": "回营·起鼓",
+      "chord": "Bm",
+      "start": 31.578947,
+      "duration": 2.553191
+    },
+    {
+      "bar": 12,
+      "bpm": 94,
+      "section": null,
+      "chord": "A",
+      "start": 34.132139,
+      "duration": 2.553191
+    },
+    {
+      "bar": 13,
+      "bpm": 94,
+      "section": null,
+      "chord": "G",
+      "start": 36.68533,
+      "duration": 2.553191
+    },
+    {
+      "bar": 14,
+      "bpm": 94,
+      "section": null,
+      "chord": "A",
+      "start": 39.238522,
+      "duration": 2.553191
+    },
+    {
+      "bar": 15,
+      "bpm": 94,
+      "section": null,
+      "chord": "D",
+      "start": 41.791713,
+      "duration": 2.553191
+    },
+    {
+      "bar": 16,
+      "bpm": 94,
+      "section": null,
+      "chord": "G",
+      "start": 44.344905,
+      "duration": 2.553191
+    },
+    {
+      "bar": 17,
+      "bpm": 94,
+      "section": null,
+      "chord": "Em",
+      "start": 46.898096,
+      "duration": 2.553191
+    },
+    {
+      "bar": 18,
+      "bpm": 94,
+      "section": null,
+      "chord": "F#",
+      "start": 49.451288,
+      "duration": 2.553191
+    },
+    {
+      "bar": 19,
+      "bpm": 98,
+      "section": "首副歌·横刀",
+      "chord": "Bm",
+      "start": 52.004479,
+      "duration": 2.44898
+    },
+    {
+      "bar": 20,
+      "bpm": 98,
+      "section": null,
+      "chord": "D",
+      "start": 54.453459,
+      "duration": 2.44898
+    },
+    {
+      "bar": 21,
+      "bpm": 98,
+      "section": null,
+      "chord": "G",
+      "start": 56.902438,
+      "duration": 2.44898
+    },
+    {
+      "bar": 22,
+      "bpm": 98,
+      "section": null,
+      "chord": "A",
+      "start": 59.351418,
+      "duration": 2.44898
+    },
+    {
+      "bar": 23,
+      "bpm": 98,
+      "section": null,
+      "chord": "Bm",
+      "start": 61.800398,
+      "duration": 2.44898
+    },
+    {
+      "bar": 24,
+      "bpm": 98,
+      "section": null,
+      "chord": "G",
+      "start": 64.249377,
+      "duration": 2.44898
+    },
+    {
+      "bar": 25,
+      "bpm": 98,
+      "section": null,
+      "chord": "Em",
+      "start": 66.698357,
+      "duration": 2.44898
+    },
+    {
+      "bar": 26,
+      "bpm": 98,
+      "section": null,
+      "chord": "F#",
+      "start": 69.147336,
+      "duration": 2.44898
+    },
+    {
+      "bar": 27,
+      "bpm": 98,
+      "section": null,
+      "chord": "Bm",
+      "start": 71.596316,
+      "duration": 2.44898
+    },
+    {
+      "bar": 28,
+      "bpm": 98,
+      "section": null,
+      "chord": "D",
+      "start": 74.045296,
+      "duration": 2.44898
+    },
+    {
+      "bar": 29,
+      "bpm": 98,
+      "section": null,
+      "chord": "G",
+      "start": 76.494275,
+      "duration": 2.44898
+    },
+    {
+      "bar": 30,
+      "bpm": 98,
+      "section": null,
+      "chord": "F#",
+      "start": 78.943255,
+      "duration": 2.44898
+    },
+    {
+      "bar": 31,
+      "bpm": 104,
+      "section": "战鼓间奏",
+      "chord": "Bm",
+      "start": 81.392234,
+      "duration": 2.307692
+    },
+    {
+      "bar": 32,
+      "bpm": 104,
+      "section": null,
+      "chord": "F#",
+      "start": 83.699927,
+      "duration": 2.307692
+    },
+    {
+      "bar": 33,
+      "bpm": 72,
+      "section": "桥段·卸甲",
+      "chord": "Em",
+      "start": 86.007619,
+      "duration": 3.333333
+    },
+    {
+      "bar": 34,
+      "bpm": 72,
+      "section": null,
+      "chord": "Bm",
+      "start": 89.340952,
+      "duration": 3.333333
+    },
+    {
+      "bar": 35,
+      "bpm": 72,
+      "section": null,
+      "chord": "G",
+      "start": 92.674286,
+      "duration": 3.333333
+    },
+    {
+      "bar": 36,
+      "bpm": 72,
+      "section": null,
+      "chord": "D",
+      "start": 96.007619,
+      "duration": 3.333333
+    },
+    {
+      "bar": 37,
+      "bpm": 72,
+      "section": null,
+      "chord": "Bm",
+      "start": 99.340952,
+      "duration": 3.333333
+    },
+    {
+      "bar": 38,
+      "bpm": 72,
+      "section": null,
+      "chord": "Em",
+      "start": 102.674286,
+      "duration": 3.333333
+    },
+    {
+      "bar": 39,
+      "bpm": 72,
+      "section": null,
+      "chord": "G",
+      "start": 106.007619,
+      "duration": 3.333333
+    },
+    {
+      "bar": 40,
+      "bpm": 72,
+      "section": null,
+      "chord": "A",
+      "start": 109.340952,
+      "duration": 3.333333
+    },
+    {
+      "bar": 41,
+      "bpm": 104,
+      "section": "尾副歌·自报姓名",
+      "chord": "Bm",
+      "start": 112.674286,
+      "duration": 2.307692
+    },
+    {
+      "bar": 42,
+      "bpm": 104,
+      "section": null,
+      "chord": "D",
+      "start": 114.981978,
+      "duration": 2.307692
+    },
+    {
+      "bar": 43,
+      "bpm": 104,
+      "section": null,
+      "chord": "G",
+      "start": 117.28967,
+      "duration": 2.307692
+    },
+    {
+      "bar": 44,
+      "bpm": 104,
+      "section": null,
+      "chord": "A",
+      "start": 119.597363,
+      "duration": 2.307692
+    },
+    {
+      "bar": 45,
+      "bpm": 104,
+      "section": null,
+      "chord": "Bm",
+      "start": 121.905055,
+      "duration": 2.307692
+    },
+    {
+      "bar": 46,
+      "bpm": 104,
+      "section": null,
+      "chord": "G",
+      "start": 124.212747,
+      "duration": 2.307692
+    },
+    {
+      "bar": 47,
+      "bpm": 104,
+      "section": null,
+      "chord": "Em",
+      "start": 126.52044,
+      "duration": 2.307692
+    },
+    {
+      "bar": 48,
+      "bpm": 104,
+      "section": null,
+      "chord": "F#",
+      "start": 128.828132,
+      "duration": 2.307692
+    },
+    {
+      "bar": 49,
+      "bpm": 104,
+      "section": null,
+      "chord": "G",
+      "start": 131.135824,
+      "duration": 2.307692
+    },
+    {
+      "bar": 50,
+      "bpm": 104,
+      "section": null,
+      "chord": "A",
+      "start": 133.443516,
+      "duration": 2.307692
+    },
+    {
+      "bar": 51,
+      "bpm": 104,
+      "section": null,
+      "chord": "D",
+      "start": 135.751209,
+      "duration": 2.307692
+    },
+    {
+      "bar": 52,
+      "bpm": 104,
+      "section": null,
+      "chord": "Bm",
+      "start": 138.058901,
+      "duration": 2.307692
+    },
+    {
+      "bar": 53,
+      "bpm": 76,
+      "section": "尾声",
+      "chord": "G",
+      "start": 140.366593,
+      "duration": 3.157895
+    },
+    {
+      "bar": 54,
+      "bpm": 76,
+      "section": null,
+      "chord": "Bm",
+      "start": 143.524488,
+      "duration": 3.157895
+    }
+  ],
+  "lines": [
+    {
+      "sequence": 1,
+      "text": "归家三天雨未停",
+      "section": "归乡·收声",
+      "fromBar": 3,
+      "throughBar": 4,
+      "startSec": 6.315789,
+      "endSec": 12.631579
+    },
+    {
+      "sequence": 2,
+      "text": "门外有人唤父名",
+      "section": "归乡·收声",
+      "fromBar": 5,
+      "throughBar": 6,
+      "startSec": 12.631579,
+      "endSec": 18.947369000000002
+    },
+    {
+      "sequence": 3,
+      "text": "爹扶门框欲相迎",
+      "section": "归乡·收声",
+      "fromBar": 7,
+      "throughBar": 8,
+      "startSec": 18.947368,
+      "endSec": 25.263158
+    },
+    {
+      "sequence": 4,
+      "text": "来客说要谢恩人",
+      "section": "归乡·收声",
+      "fromBar": 9,
+      "throughBar": 10,
+      "startSec": 25.263158,
+      "endSec": 31.578948
+    },
+    {
+      "sequence": 5,
+      "text": "那夜负你踏碎冰",
+      "section": "回营·起鼓",
+      "fromBar": 11,
+      "throughBar": 12,
+      "startSec": 31.578947,
+      "endSec": 36.68533
+    },
+    {
+      "sequence": 6,
+      "text": "你攥我手听风声",
+      "section": "回营·起鼓",
+      "fromBar": 13,
+      "throughBar": 14,
+      "startSec": 36.68533,
+      "endSec": 41.791713
+    },
+    {
+      "sequence": 7,
+      "text": "点卯无人唤木兰",
+      "section": "回营·起鼓",
+      "fromBar": 15,
+      "throughBar": 16,
+      "startSec": 41.791713,
+      "endSec": 46.898095999999995
+    },
+    {
+      "sequence": 8,
+      "text": "父名出口我来应",
+      "section": "回营·起鼓",
+      "fromBar": 17,
+      "throughBar": 18,
+      "startSec": 46.898096,
+      "endSec": 52.004478999999996
+    },
+    {
+      "sequence": 9,
+      "text": "叫错名字，没认错人",
+      "section": "首副歌·横刀",
+      "fromBar": 19,
+      "throughBar": 20,
+      "startSec": 52.004479,
+      "endSec": 56.902439
+    },
+    {
+      "sequence": 10,
+      "text": "那夜背你上岸是我",
+      "section": "首副歌·横刀",
+      "fromBar": 21,
+      "throughBar": 22,
+      "startSec": 56.902438,
+      "endSec": 61.800398
+    },
+    {
+      "sequence": 11,
+      "text": "认这道虎口的伤痕",
+      "section": "首副歌·横刀",
+      "fromBar": 23,
+      "throughBar": 24,
+      "startSec": 61.800398,
+      "endSec": 66.698357
+    },
+    {
+      "sequence": 12,
+      "text": "你欠的那碗酒还温",
+      "section": "首副歌·横刀",
+      "fromBar": 25,
+      "throughBar": 26,
+      "startSec": 66.698357,
+      "endSec": 71.596316
+    },
+    {
+      "sequence": 13,
+      "text": "叫错名字，没认错人",
+      "section": "首副歌·横刀",
+      "fromBar": 27,
+      "throughBar": 28,
+      "startSec": 71.596316,
+      "endSec": 76.494276
+    },
+    {
+      "sequence": 14,
+      "text": "今朝可唤我一声",
+      "section": "首副歌·横刀",
+      "fromBar": 29,
+      "throughBar": 30,
+      "startSec": 76.494275,
+      "endSec": 81.392235
+    },
+    {
+      "sequence": 15,
+      "text": "爹的手停在门边",
+      "section": "桥段·卸甲",
+      "fromBar": 33,
+      "throughBar": 34,
+      "startSec": 86.007619,
+      "endSec": 92.674285
+    },
+    {
+      "sequence": 16,
+      "text": "我把军牌还他掌间",
+      "section": "桥段·卸甲",
+      "fromBar": 35,
+      "throughBar": 36,
+      "startSec": 92.674286,
+      "endSec": 99.340952
+    },
+    {
+      "sequence": 17,
+      "text": "他把热酒推我面前",
+      "section": "桥段·卸甲",
+      "fromBar": 37,
+      "throughBar": 38,
+      "startSec": 99.340952,
+      "endSec": 106.00761899999999
+    },
+    {
+      "sequence": 18,
+      "text": "问我以后唤何名",
+      "section": "桥段·卸甲",
+      "fromBar": 39,
+      "throughBar": 40,
+      "startSec": 106.007619,
+      "endSec": 112.674285
+    },
+    {
+      "sequence": 19,
+      "text": "叫错名字，没认错人",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 41,
+      "throughBar": 42,
+      "startSec": 112.674286,
+      "endSec": 117.28967
+    },
+    {
+      "sequence": 20,
+      "text": "那夜背你上岸是我",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 43,
+      "throughBar": 44,
+      "startSec": 117.28967,
+      "endSec": 121.905055
+    },
+    {
+      "sequence": 21,
+      "text": "认这道虎口的伤痕",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 45,
+      "throughBar": 46,
+      "startSec": 121.905055,
+      "endSec": 126.520439
+    },
+    {
+      "sequence": 22,
+      "text": "别把那酒敬错了人",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 47,
+      "throughBar": 48,
+      "startSec": 126.52044,
+      "endSec": 131.135824
+    },
+    {
+      "sequence": 23,
+      "text": "若你又问雪夜何人",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 49,
+      "throughBar": 50,
+      "startSec": 131.135824,
+      "endSec": 135.751208
+    },
+    {
+      "sequence": 24,
+      "text": "叫我木兰，我就应声",
+      "section": "尾副歌·自报姓名",
+      "fromBar": 51,
+      "throughBar": 52,
+      "startSec": 135.751209,
+      "endSec": 140.366593
+    }
+  ],
+  "exactDuration": 146.68238283339866
+}
